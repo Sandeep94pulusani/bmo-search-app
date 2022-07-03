@@ -1,0 +1,11 @@
+export const MAIN_PAGE = "MAIN_PAGE";
+export const SET_BOOK_DATA = "SET_BOOK_DATA";
+export const FETCH_DATA_PENDING = "FETCH_DATA_PENDING";
+export const SET_SORT_VALUE = "SET_SORT_VALUE";
+export const SORT = {
+  SELECT_OPTION: "SELECT_OPTION",
+  TITLE_A_Z: "TITLE_A_Z",
+  TITLE_Z_A: "TITLE_Z_A",
+  DATE_DESC: "DATE_DESC",
+  DATE_ASC: "DATE_ASC",
+};

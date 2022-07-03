@@ -1,0 +1,81 @@
+html {
+    background: url(../..//assets/images/bg.jpeg)
+      no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+.container {
+    background-color: rgba(0, 0, 0, 0.8);
+    width:90%;
+    color:#fff;
+    max-width:1200px;
+    height:95vh;
+    margin:auto;
+    margin-top: 5vh;
+    overflow: auto;
+  }
+h1, h3 {
+    text-align: center;
+}
+.form {
+width:90%;
+    margin-left:auto;
+    margin-right:auto;
+}
+.error-message {
+    color:red;
+}
+.input-text {
+    width:65%;
+    height: 40px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.input-button {
+    cursor: pointer;
+  -webkit-appearance: none;
+  width:30%;
+  min-width: 150px;
+  height: 60px;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #ff8c00;
+  color: #fff;
+  font-weight: bold;
+  border: solid #666 1px;
+  font-size: 24px;
+}
+
+.btnplaylist, .btn-play {
+    display: none;
+}
+
+
+@media screen and (max-width: 649px) {
+    .input-button {
+        display: none;
+    }
+    .btnplaylist {
+        display: block;
+        background-image: url("https://www.kindpng.com/picc/m/10-100466_search-icon-png-orange-transparent-png.png");
+        background-size: cover;
+        width: 40px;
+        height: 40px;
+        display:block;
+      }
+      
+      .btn-play {
+        display: block;
+        background-color: #fff;
+        border-radius: 25px;
+        padding: 8px 12px;
+float: right;
+        outline: none;
+
+      }
+      .btn-play:hover {
+        border:1px solid #05213e;
+      }
+}
